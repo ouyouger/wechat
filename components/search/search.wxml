@@ -1,0 +1,7 @@
+<navigator url= "/pages/search/search"> 
+<view class='search'>
+  <view class="search-in">
+    <icon type="search"></icon>搜索
+  </view>
+</view>
+</navigator>

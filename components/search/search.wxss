@@ -1,0 +1,14 @@
+.search {
+  background-color: #eb4450;
+  padding: 20rpx 18rpx;
+}
+
+.search-in {
+  height: 60rpx;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #7f7f7f;
+  border-radius: 30rpx;
+}
