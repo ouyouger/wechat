@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/category/category",
-    "pages/index/index",
+      "pages/category/category",
+      "pages/index/index",
+    "pages/goods_list/goods_list",
+  
     "pages/cart/cart",
     "pages/my/my",
     "pages/goods_detail/goods_detail",
     "pages/order/order",
     "pages/search/search",
-    "pages/goods_list/goods_list",
     "pages/logs/logs"
   ],
   "window": {
