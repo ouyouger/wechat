@@ -1,5 +1,9 @@
 const baseURL = 'https://api.zbztb.cn/api/public/v1/';
 export const myrequest = (obj) => {
+  obj.header=obj.header||{};
+  if(obj.url.includes('my/')===true){
+    obj.header.Authorization=wx.getStorageSync('token')
+  }
   wx.showLoading({
     title: '努力加载中...',
   })

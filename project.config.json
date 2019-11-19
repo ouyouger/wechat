@@ -14,7 +14,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.9.2",
-	"appid": "wxc92d1797e1c12ed6",
+	"appid": "wxfb52f2d7b2f6123a",
 	"projectname": "shop",
 	"debugOptions": {
 		"hidedInDevtools": []
@@ -48,9 +48,44 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/goods_list/goods_list",
-					"pathName": "pages/goods_list/goods_list",
-					"query": "cid=5&query=电视",
+					"name": "pages/goods_detail/goods_detail",
+					"pathName": "pages/goods_detail/goods_detail",
+					"query": "goods_id=3",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "详情",
+					"pathName": "pages/goods_detail/goods_detail",
+					"query": "goods_id=109",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "pages/cart/cart",
+					"pathName": "pages/cart/cart",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "支付",
+					"pathName": "pages/pay/pay",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单",
+					"pathName": "pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "pages/my/my",
+					"pathName": "pages/my/my",
+					"query": "",
 					"scene": null
 				}
 			]
